@@ -385,7 +385,7 @@ Nous avons maintenant une fonction `Retirer` qui fonctionne. Cependant, que se p
 
 Nous devons ajouter une validation pour empêcher cela et retourner une erreur dans ce cas.
 
-
+```go
 	resultat := portefeuille.Solde()
 	attendu := 10
 
